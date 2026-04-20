@@ -1,5 +1,5 @@
 #include <SoftI2C_VPORT.h>
-#include "AQM1602.h"
+#include "AQM1602_SoftI2C.h"
 
 // ★ I2Cをここで作る
 SoftI2C_VPORT i2c(2, 3);  //使用するPinを設定する
