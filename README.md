@@ -54,11 +54,5 @@ MIT
 
 ---
 
-# ■ ② LICENSE（MIT）を確認
+# ■ ② LICENSE（MIT）
 
-もし無ければ👇
-
-👉 「Add file」→「Create new file」
-
-```plaintext
-LICENSE
