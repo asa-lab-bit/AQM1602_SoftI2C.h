@@ -15,7 +15,7 @@ class AQM1602 {
     void print(const char* text);
     void print(int value);
     void printAt(uint8_t col, uint8_t row, const char* text);
-
+　　void printAt(uint8_t col, uint8_t row, int value);
   private:
     SoftI2C_VPORT& _i2c;
 
