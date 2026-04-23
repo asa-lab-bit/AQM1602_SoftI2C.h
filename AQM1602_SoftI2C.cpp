@@ -81,6 +81,10 @@ void AQM1602::printAt(uint8_t col, uint8_t row, const char* text) {
   setCursor(col, row);
   print(text);
 }
+void AQM1602::printAt(uint8_t col, uint8_t row, int value) {
+  setCursor(col, row);
+  print(value);
+}
 
 void AQM1602::sendCommand(uint8_t cmd) {
   _i2c.start();
